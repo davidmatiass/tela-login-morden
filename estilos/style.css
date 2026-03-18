@@ -1,11 +1,18 @@
 @charset "UTF-8";
 
+:root {
+    --cor01:#e2e2e2;
+    --cor02:#c9d6ff;
+    --cor03:;
+    --cor04:;
+    --cor05:;
+}
 
 
 .montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
