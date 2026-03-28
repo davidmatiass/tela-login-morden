@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 :root {
-    --cor01:#e2e2e2;
-    --cor02:#c9d6ff;
-    --cor03:;
-    --cor04:;
-    --cor05:;
+    --cor0e:#e2e2e2;
+    --cor0c:#c9d6ff;
+    --cor05:#512da8;
+    --cor0f:#fff;
+    --cor0e:#eee;
+    --cor0cc: #ccc;
+    
 }
 
 
@@ -24,5 +26,22 @@
 }
 
 body {
-    background-color: 
+    background-color: var(--cor0c);
+    background: linear-gradient(to right, var(--cor0e), var(--cor0c));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.conteiner {
+    background-color: var(--cor0f);
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.397);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
 }
