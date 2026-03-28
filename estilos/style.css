@@ -7,6 +7,7 @@
     --cor0f:#fff;
     --cor0e:#eee;
     --cor0cc: #ccc;
+    --cor03:#333;
     
 }
 
@@ -44,4 +45,22 @@ body {
     width: 768px;
     max-width: 100%;
     min-height: 480px;
+}
+    
+.conteiner p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.conteiner span {
+    font-size: 12px; 
+}
+
+.conteiner a {
+    color: var(--cor03);
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
 }
